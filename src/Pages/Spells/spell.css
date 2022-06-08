@@ -1,0 +1,23 @@
+.spell-list ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.spell-list ul li {
+  list-style: none;
+}
+
+.single-spell {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+}

@@ -1,0 +1,23 @@
+.character-list ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.character-list ul li {
+  list-style: none;
+}
+
+.single-character {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
